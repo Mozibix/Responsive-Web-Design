@@ -279,8 +279,8 @@ div.footer-input {
 
 input[type="text"] {
     margin-right: 10px;
-    padding: 10px 20px;
-    width: 25%;
+    padding: 5px 10px;
+    width: 15%;
     outline: none;
     border: 1px solid #bcc3c7;
     background: transparent;
@@ -344,4 +344,155 @@ div.footer h6 {
     color: #88949B;
     font-size: 1rem;
     padding-top: 6rem;
+}
+
+@media screen and (max-width: 768px) {
+    
+div.nav-bar {
+    justify-content: space-between;
+    padding: 5px;
+    width: 96.5vw;
+    background: #304353;
+    position: relative;
+}
+
+div.logo {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+ul.nav-links {
+    flex-direction: column;
+    margin-right: 0px;
+    position: relative;
+}
+
+ul li {
+    margin: 0.5vw 0vw;
+    font-size: 17px;
+
+}
+
+.nav-links a{
+    padding: 2px;
+    position: relative;
+    padding: 10px;
+
+}
+
+ul li a:hover {
+    border-radius: 10px;
+    color: #304353;
+    background: #fff;
+    padding: 0.4rem;
+    box-shadow: 0 0 5px #33ffff,
+                0 0 5px #66ffff;
+    padding: 5px;           
+}
+
+    
+div.hero-section {
+    padding: 30px;
+}
+
+div.hero-content-heading h3 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+div.hero-content-btn a {
+    font-size: 15px;
+    padding: 5px 15px;
+}
+
+div.hero-background {
+    padding: 20px;
+}
+
+div.background {
+    padding: 7px;
+    width: 550px;
+    height: 200px;
+}
+
+div.background h4 {
+    padding: 20px;
+    text-align: center;
+}
+
+div.background p {
+    padding-left: 1rem;
+    font-size: 0.8em;
+    letter-spacing: 1.5px;
+}
+
+div.hero-background-pos {
+    display: none;
+}
+
+div.snapshot-team p {
+    font-size: 15px;
+}
+
+div.snapshot-box-content {
+    flex-direction: column;
+}
+
+div.footer {
+    background: #304353;
+    padding: 3rem;
+}
+
+div.footer-content {
+    text-align: center;
+}
+
+div.footer-content h4 {
+    color: #bcc3c7;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+div.footer-content p {
+    color: #88949B;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    padding-top: 0.8rem;
+}
+
+div.footer-input {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+input[type="text"] {
+    margin-right: 0;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 20em;
+}
+
+input[type="email"] {
+    margin-right: 0;
+    padding: 10px 20px;
+    width: 20em;
+}
+
+
+div.footer-textarea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+ }
 }
